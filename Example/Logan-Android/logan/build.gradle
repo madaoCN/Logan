@@ -4,11 +4,11 @@ apply from: rootProject.file("bintrayUpload.gradle")
 android {
 //    publishNonDefault true
 
-    compileSdkVersion 23
+    compileSdkVersion 35
     buildToolsVersion "25.0.2"
     defaultConfig {
         minSdkVersion 14
-        targetSdkVersion 23
+        targetSdkVersion 35
         versionCode 1
         versionName "1.0"
 
